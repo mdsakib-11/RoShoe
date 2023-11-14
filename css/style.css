@@ -1,0 +1,265 @@
+/* Navigation Area Here */
+
+.bg-back{
+    background-color: #06122c;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 1.5rem;
+}
+
+.client_slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.slider-des{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+}
+.client-pera-des{
+    color: #ffff;
+}
+.client-name{
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.client-address{
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    padding-top: 6px;
+}
+
+#client-review .slick-dots{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#client-review .slick-dots li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#client-review .slick-dots li button{
+    display: none;
+}
+#client-review .slick-dots .slick-active{
+    background-color: yellow;
+}
+/* Hero Area Here */
+#banner{
+    padding: 45px 0 64px 0;
+    background: linear-gradient(283deg, #081530, #2E3E61);
+}
+.right-banner h1{
+    font-size: 116px;
+    line-height: 139px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+.hero-text{
+    color: #00EDF5;
+}
+.hero-text-two{
+    color: #4E638D;
+    }
+.hero-text-three{
+    color: #FFFFFF;
+    }
+.banner-btn {
+    background: #FFC600;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 10px 35px;
+    transition: all linear 0.3s;
+}
+.banner-btn:hover{
+    color: #FFC600;
+    border: 2px solid #FFC600;
+    background: none;
+}
+
+@media(max-width:767px){
+    .right-banner {
+        text-align: center;
+    }
+    .right-banner h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+/* About Area Here */
+#about{
+    background-color: #00EDF5;
+    padding: 50px 0;
+}
+.header-wrapper{
+    position: relative;
+    background-image: url(../images/blue-left-divider.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.about-header{
+    color: #06122C;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+.about-text{
+    color: #06122C;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 20px;
+}
+.about-title{
+    color: #06122c;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin-bottom: 1.5em;
+    padding: 10px 50px 0 0;
+}
+.about-img{
+    padding-top: 108px;
+}
+/* Gym Area Here */
+.gym-header{
+    color: #06122C;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+.gym-title{
+    color: #06122C;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+#gym-area{
+    padding: 50px 0;
+    background-color: #ECF4F4;
+}
+.gym-image{
+    text-align: center;
+    padding: 50px 0;
+}
+.gym-area-wrapper{
+    position: relative;
+    background-image: url(../images/blue-divider.png) ;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 20px;
+}
+.per-count {
+    font-family: 'Rubik', sans-serif;
+    font-size: 96px;
+    color: #ffc600;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.per-title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 26px;
+    color: #040e27;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.per-des{
+    font-size: 14px;
+    color: #818282;
+    font-weight: 300;
+}
+.per-info{
+    padding: 10px;
+}
+/* Like Area Here */
+#like{
+    padding: 80px 0 335px;
+    background: #f2f6f6 url(../images/waves.png) no-repeat bottom center;
+    background-size: contain;
+}
+.like-info-area{
+    padding-top: 70px;
+}
+.info-title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    color: #06122c;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+.info-des {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #818282;
+    font-weight: 300;
+    margin-bottom: 1.5em;
+    padding-bottom: 30px;
+}
+.like_img{
+    padding-top:70px;
+}
+.info-wrapper{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between !important;
+}
+/* Client Area Here */
+#client-review{
+    padding:50px 0 ;
+    background-color: #06122C;
+}
+.client-header{
+    position: relative;
+    background-image: url(../images/white-divider.png) ;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding: 50px 0;
+}
+.client-title{
+    color: #ffff;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+.client-review{
+    color: #FFC600;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin: 0;
+}
